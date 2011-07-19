@@ -23,14 +23,14 @@
 		DDBF274C13D5EE67004E5118 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDBF274E13D5EE67004E5118 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDBF275013D5EE67004E5118 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DDBF275413D5EE67004E5118 /* MobileBrowser-Info.plist */ = {isa = PBXFileReference; path = "MobileBrowser-Info.plist"; sourceTree = "<group>"; };
+		DDBF275413D5EE67004E5118 /* MobileBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileBrowser-Info.plist"; sourceTree = "<group>"; };
 		DDBF275613D5EE67004E5118 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DDBF275813D5EE67004E5118 /* MobileBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "MobileBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		DDBF275813D5EE67004E5118 /* MobileBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileBrowser-Prefix.pch"; sourceTree = "<group>"; };
 		DDBF275913D5EE67004E5118 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDBF275B13D5EE67004E5118 /* MobileBrowserAppDelegate.h */ = {isa = PBXFileReference; path = MobileBrowserAppDelegate.h; sourceTree = "<group>"; };
+		DDBF275B13D5EE67004E5118 /* MobileBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileBrowserAppDelegate.h; sourceTree = "<group>"; };
 		DDBF275C13D5EE67004E5118 /* MobileBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileBrowserAppDelegate.m; sourceTree = "<group>"; };
 		DDBF275F13D5EE67004E5118 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		DDBF276113D5EE67004E5118 /* MobileBrowserViewController.h */ = {isa = PBXFileReference; path = MobileBrowserViewController.h; sourceTree = "<group>"; };
+		DDBF276113D5EE67004E5118 /* MobileBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileBrowserViewController.h; sourceTree = "<group>"; };
 		DDBF276213D5EE67004E5118 /* MobileBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileBrowserViewController.m; sourceTree = "<group>"; };
 		DDBF276513D5EE67004E5118 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MobileBrowserViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
