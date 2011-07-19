@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDBF274D13D5EE67004E5118 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBF274C13D5EE67004E5118 /* UIKit.framework */; };
+		DDBF274F13D5EE67004E5118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBF274E13D5EE67004E5118 /* Foundation.framework */; };
+		DDBF275113D5EE67004E5118 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBF275013D5EE67004E5118 /* CoreGraphics.framework */; };
+		DDBF275713D5EE67004E5118 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDBF275513D5EE67004E5118 /* InfoPlist.strings */; };
+		DDBF275A13D5EE67004E5118 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBF275913D5EE67004E5118 /* main.m */; };
+		DDBF275D13D5EE67004E5118 /* MobileBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBF275C13D5EE67004E5118 /* MobileBrowserAppDelegate.m */; };
+		DDBF276013D5EE67004E5118 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDBF275E13D5EE67004E5118 /* MainWindow.xib */; };
+		DDBF276313D5EE67004E5118 /* MobileBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBF276213D5EE67004E5118 /* MobileBrowserViewController.m */; };
+		DDBF276613D5EE67004E5118 /* MobileBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDBF276413D5EE67004E5118 /* MobileBrowserViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDBF274813D5EE67004E5118 /* MobileBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBF274C13D5EE67004E5118 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDBF274E13D5EE67004E5118 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDBF275013D5EE67004E5118 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDBF275413D5EE67004E5118 /* MobileBrowser-Info.plist */ = {isa = PBXFileReference; path = "MobileBrowser-Info.plist"; sourceTree = "<group>"; };
+		DDBF275613D5EE67004E5118 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDBF275813D5EE67004E5118 /* MobileBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "MobileBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		DDBF275913D5EE67004E5118 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDBF275B13D5EE67004E5118 /* MobileBrowserAppDelegate.h */ = {isa = PBXFileReference; path = MobileBrowserAppDelegate.h; sourceTree = "<group>"; };
+		DDBF275C13D5EE67004E5118 /* MobileBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileBrowserAppDelegate.m; sourceTree = "<group>"; };
+		DDBF275F13D5EE67004E5118 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DDBF276113D5EE67004E5118 /* MobileBrowserViewController.h */ = {isa = PBXFileReference; path = MobileBrowserViewController.h; sourceTree = "<group>"; };
+		DDBF276213D5EE67004E5118 /* MobileBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileBrowserViewController.m; sourceTree = "<group>"; };
+		DDBF276513D5EE67004E5118 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MobileBrowserViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDBF274513D5EE66004E5118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBF274D13D5EE67004E5118 /* UIKit.framework in Frameworks */,
+				DDBF274F13D5EE67004E5118 /* Foundation.framework in Frameworks */,
+				DDBF275113D5EE67004E5118 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDBF273D13D5EE66004E5118 = {
+			isa = PBXGroup;
+			children = (
+				DDBF275213D5EE67004E5118 /* MobileBrowser */,
+				DDBF274B13D5EE67004E5118 /* Frameworks */,
+				DDBF274913D5EE67004E5118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBF274913D5EE67004E5118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBF274813D5EE67004E5118 /* MobileBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBF274B13D5EE67004E5118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDBF274C13D5EE67004E5118 /* UIKit.framework */,
+				DDBF274E13D5EE67004E5118 /* Foundation.framework */,
+				DDBF275013D5EE67004E5118 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDBF275213D5EE67004E5118 /* MobileBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				DDBF275B13D5EE67004E5118 /* MobileBrowserAppDelegate.h */,
+				DDBF275C13D5EE67004E5118 /* MobileBrowserAppDelegate.m */,
+				DDBF275E13D5EE67004E5118 /* MainWindow.xib */,
+				DDBF276113D5EE67004E5118 /* MobileBrowserViewController.h */,
+				DDBF276213D5EE67004E5118 /* MobileBrowserViewController.m */,
+				DDBF276413D5EE67004E5118 /* MobileBrowserViewController.xib */,
+				DDBF275313D5EE67004E5118 /* Supporting Files */,
+			);
+			path = MobileBrowser;
+			sourceTree = "<group>";
+		};
+		DDBF275313D5EE67004E5118 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDBF275413D5EE67004E5118 /* MobileBrowser-Info.plist */,
+				DDBF275513D5EE67004E5118 /* InfoPlist.strings */,
+				DDBF275813D5EE67004E5118 /* MobileBrowser-Prefix.pch */,
+				DDBF275913D5EE67004E5118 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDBF274713D5EE66004E5118 /* MobileBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBF276913D5EE67004E5118 /* Build configuration list for PBXNativeTarget "MobileBrowser" */;
+			buildPhases = (
+				DDBF274413D5EE66004E5118 /* Sources */,
+				DDBF274513D5EE66004E5118 /* Frameworks */,
+				DDBF274613D5EE66004E5118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileBrowser;
+			productName = MobileBrowser;
+			productReference = DDBF274813D5EE67004E5118 /* MobileBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBF273F13D5EE66004E5118 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DDBF274213D5EE66004E5118 /* Build configuration list for PBXProject "MobileBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDBF273D13D5EE66004E5118;
+			productRefGroup = DDBF274913D5EE67004E5118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBF274713D5EE66004E5118 /* MobileBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDBF274613D5EE66004E5118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBF275713D5EE67004E5118 /* InfoPlist.strings in Resources */,
+				DDBF276013D5EE67004E5118 /* MainWindow.xib in Resources */,
+				DDBF276613D5EE67004E5118 /* MobileBrowserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDBF274413D5EE66004E5118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBF275A13D5EE67004E5118 /* main.m in Sources */,
+				DDBF275D13D5EE67004E5118 /* MobileBrowserAppDelegate.m in Sources */,
+				DDBF276313D5EE67004E5118 /* MobileBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDBF275513D5EE67004E5118 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBF275613D5EE67004E5118 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDBF275E13D5EE67004E5118 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBF275F13D5EE67004E5118 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DDBF276413D5EE67004E5118 /* MobileBrowserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBF276513D5EE67004E5118 /* en */,
+			);
+			name = MobileBrowserViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDBF276713D5EE67004E5118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDBF276813D5EE67004E5118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DDBF276A13D5EE67004E5118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileBrowser/MobileBrowser-Prefix.pch";
+				INFOPLIST_FILE = "MobileBrowser/MobileBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDBF276B13D5EE67004E5118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileBrowser/MobileBrowser-Prefix.pch";
+				INFOPLIST_FILE = "MobileBrowser/MobileBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDBF274213D5EE66004E5118 /* Build configuration list for PBXProject "MobileBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBF276713D5EE67004E5118 /* Debug */,
+				DDBF276813D5EE67004E5118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBF276913D5EE67004E5118 /* Build configuration list for PBXNativeTarget "MobileBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBF276A13D5EE67004E5118 /* Debug */,
+				DDBF276B13D5EE67004E5118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDBF273F13D5EE66004E5118 /* Project object */;
+}
