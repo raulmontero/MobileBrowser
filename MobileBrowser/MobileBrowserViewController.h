@@ -16,5 +16,6 @@
 @property (nonatomic, retain) IBOutlet UIWebView *webview;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *backButton;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *forwardButton;
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *spinner;
 
 @end

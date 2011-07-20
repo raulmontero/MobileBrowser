@@ -10,7 +10,7 @@
 
 @implementation MobileBrowserViewController
 
-@synthesize address, webview, backButton, forwardButton;
+@synthesize address, webview, backButton, forwardButton, spinner;
 
 
 
@@ -58,9 +58,15 @@
 
 #pragma mark - WebView Delegate methods
 
+- (void) webViewDidStartLoad:(UIWebView *)webView
+{
+    [self.spinner startAnimating];
+}
+
 - (void) webViewDidFinishLoad:(UIWebView *)webView
 {
     [self.address setText:[[self.webview.request URL] absoluteString]];
+    [self.spinner stopAnimating];
     [self resetButtons];
 }
 
